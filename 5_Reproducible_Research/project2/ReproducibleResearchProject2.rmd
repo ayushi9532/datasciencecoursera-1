@@ -23,7 +23,7 @@ Information on the Data: [Documentation](https://d396qusza40orc.cloudfront.net/r
 
 ### 2.1: Data Loading
 
-Download the raw data file and extract the data into a dataframe.Then convert to a data.table
+Download the raw data file and extract the data into a  dataframe.Then convert to a data.table    
 ```{r DataLoading}
 library("data.table")
 library("ggplot2")
@@ -202,5 +202,5 @@ econChart = econChart + theme(axis.text.x = element_text(angle=45, hjust=1))
 # Set chart title and center it
 econChart = econChart + ggtitle("Top 10 US Storm Events causing Economic Consequences") + theme(plot.title = element_text(hjust = 0.5))
 
-econChart
+econChart   
 ```
